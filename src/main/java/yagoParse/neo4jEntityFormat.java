@@ -21,7 +21,6 @@ public class neo4jEntityFormat {
                 keyout.set(value.toString() + ",\"Entity\"");
                 context.write(keyout, NullWritable.get());
             }
-
         }
     }
 }
